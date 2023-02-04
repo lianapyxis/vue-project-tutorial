@@ -6,6 +6,11 @@ import Lesson2 from './components/Lesson2.vue'
 import Todoapp from './components/Todoapp.vue'
 import TodoApp2 from './components/TodoApp2.vue'
 import bindingelAtrrVue from './components/bindingel.atrr.vue'
+import Conditionalrenderinf1 from './components/Conditionalrenderinf1.vue'
+import Methods from './components/Methods.vue'
+import EventHandling from './components/EventHandling.vue'
+import formHandling from './components/formHandling.vue'
+
 
 const greeting = ref('Hello from parent')
 const childMsg = ref('No child msg yet')
@@ -30,6 +35,24 @@ const childMsg = ref('No child msg yet')
 <div class="space">
     <bindingelAtrrVue />
 </div>
+<br>
+<div class="space">
+    <Conditionalrenderinf1 />
+</div>
+<br>
+<div class="space">
+    <Methods />
+</div>
+<br>
+<div class="space">
+    <EventHandling />
+</div>
+<br>
+<div class="space">
+    <formHandling />
+</div>
+
+
 </template>
 
 <style scoped>
