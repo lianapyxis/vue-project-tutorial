@@ -10,7 +10,8 @@ import Conditionalrenderinf1 from './components/Conditionalrenderinf1.vue'
 import Methods from './components/Methods.vue'
 import EventHandling from './components/EventHandling.vue'
 import formHandling from './components/formHandling.vue'
-
+import bonusDirectives from './components/bonusDirectives.vue'
+import computedProperties from './components/computedProperties.vue'
 
 const greeting = ref('Hello from parent')
 const childMsg = ref('No child msg yet')
@@ -51,7 +52,14 @@ const childMsg = ref('No child msg yet')
 <div class="space">
     <formHandling />
 </div>
-
+<br>
+<div class="space">
+    <bonusDirectives />
+</div>
+<br>
+<div class="space">
+    <computedProperties />
+</div>
 
 </template>
 
